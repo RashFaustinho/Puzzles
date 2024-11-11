@@ -43,7 +43,7 @@ Debug.AddCard(16114248,1,1,LOCATION_EXTRA,0,POS_FACEDOWN) --Pair Cycroid
 Debug.AddCard(38148100,1,1,LOCATION_EXTRA,0,POS_FACEDOWN) --Aromaseraphy Rosemary
 Debug.AddCard(29515122,1,1,LOCATION_EXTRA,0,POS_FACEDOWN) --Digvorzhak
 Debug.AddCard(16114248,1,1,LOCATION_EXTRA,0,POS_FACEDOWN) --Pair Cycroid
-Debug.AddCard(50954680,1,1,LOCATION_EXTRA,0,POS_FACDOWN) --Crystal Wing
+Debug.AddCard(50954680,1,1,LOCATION_EXTRA,0,POS_FACEDOWN) --Crystal Wing
 
 --AI’s GY
 Debug.AddCard(70368879,1,1,LOCATION_GRAVE,0,POS_FACEUP) --Consistency
@@ -71,8 +71,8 @@ Debug.AddCard(16114248,0,0,LOCATION_EXTRA,0,POS_FACEDOWN) --Pair Cycroid
 Debug.AddCard(38148100,0,0,LOCATION_EXTRA,0,POS_FACEDOWN) --Aromaseraphy Rosemary
 Debug.AddCard(29515122,0,0,LOCATION_EXTRA,0,POS_FACEDOWN) --Digvorzhak
 Debug.AddCard(16114248,0,0,LOCATION_EXTRA,0,POS_FACEDOWN) --Pair Cycroid
-Debug.AddCard(50954680,0,0,LOCATION_EXTRA,0,POS_FACDOWN) --Crystal Wing
-Debug.AddCard(50954680,0,0,LOCATION_EXTRA,0,POS_FACDOWN) --Crystal Wing
+Debug.AddCard(50954680,0,0,LOCATION_EXTRA,0,POS_FACEDOWN) --Crystal Wing
+Debug.AddCard(50954680,0,0,LOCATION_EXTRA,0,POS_FACEDOWN) --Crystal Wing
 Debug.AddCard(49513164,0,0,LOCATION_EXTRA,0,POS_FACEDOWN) --Raidjin
 Debug.AddCard(49513164,0,0,LOCATION_EXTRA,0,POS_FACEDOWN) --Raidjin
 
@@ -128,3 +128,19 @@ aux.BeginPuzzle()
 --Debug.PreSummon(c,type)
 --Debug.AddCard()
 --aux.BeginPuzzle()
+
+--[[Solution:
+
+1- Activate "Book of Eclipse" and target "Aleister the Invoker", "Invoked Radjin" and "Crystal Wing Synchro Dragon".
+2- Normal Summon "Gale Dogra", then activate its effect to send "Herald of the Arc Light" to the GY. Activate "Arc Light" effect to add "Nekroz of Catastor" from the Deck to the Hand.
+3- Activate "Dogra" effect again to send another "Arc Light". Activate "Arc Light" effect to add "Advanced Ritual Art" from the Deck to the Hand.
+4- Activate "Ritual Art" and send from the Deck to the GY "Flamvell Guard", "Oppressed People" and three copies of "Cloudian - Smoke Ball" to Ritual Summon "Catastor".
+5- Activate "Tri-Wight" to Special Summon from the GY one copy of "Smoke Ball", "Flamvell Guard" and "Oppressed People".
+6- Synchro Summon "Aromaseraphy Rosemary" using "Flamvell Guard", "Smoke Ball", "Oppressed People" and "Dogra".
+7- Activate "Swing of Memories" to Special Summon "Aitsu" from the GY. Xyz Summon "Digvorzhak, King of Heavy Industry" using "Rosemary", "Catastor" and "Aitsu".
+8- Activate "Digvorzhak" effect and detatch "Aitsu" to destroy "Radjin" and "Crystal Wing". Activate "Swing" to Special Summon "Prisman" from the GY.
+9- Special Summon "Legendary Maju Garzett" tributing "Digvorzhak" and "Prisman". Activate "Instant Fusion" and Fusion Summon "Pair Cycroid".
+10- Activate "Double Summon", then "Summoner's Art" to add from the Deck to the Hand "Shapesnatch". Normal Summon it by tributing "Cycroid".
+11- Activate "Riryoku" and target "Maju Garzett" first and then "Shapesnatch". Enter the Battle Phase and attack "Aleister" with "Maju Garzett".
+12- Attack with "Shapesnatch" and, before Damage Calculation, activate "Limiter Removal".
+--]]
